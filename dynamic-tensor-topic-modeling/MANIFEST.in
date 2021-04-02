@@ -1,0 +1,17 @@
+include *.txt
+include *.yaml
+include *.yml
+include *.xml
+include *.md
+include .isort.cfg
+include LICENSE
+include src/covid19/online_nmf/LICENSE
+include tox.ini
+recursive-include src *.py
+recursive-include src *.md
+recursive-include tests *.py
+recursive-include tests *.gz
+recursive-include scripts *.py
+recursive-include scripts *.ipynb
+recursive-include scripts *.md
+include .coveragerc

@@ -1,0 +1,28 @@
+name: dynamic_topic_modeling
+channels:
+- defaults
+dependencies:
+- python>=3.8.0
+- ipython
+- numpy
+- scipy
+- jupyter
+- pandas
+- scikit-learn
+- matplotlib
+- seaborn
+- gensim
+- nltk
+- pip
+- pip:
+    - cloudpickle
+    - scikit-image
+    - psutil
+    - demoji==0.2.1
+    - tensorly
+    - tqdm
+    - pytest
+    - loguru
+    - tox
+    - pre-commit
+    - -e .

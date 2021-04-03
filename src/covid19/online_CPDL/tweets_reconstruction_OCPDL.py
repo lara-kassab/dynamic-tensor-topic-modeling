@@ -17,7 +17,6 @@ from sklearn.feature_extraction.image import (
     extract_patches_2d,
     reconstruct_from_patches_2d,
 )
-from wordcloud import STOPWORDS, WordCloud
 
 from covid19 import plotting, utils
 from covid19.online_CPDL.ocpdl import Online_CPDL

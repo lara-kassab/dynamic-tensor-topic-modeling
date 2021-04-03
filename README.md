@@ -61,9 +61,11 @@ results_dir: the local path to the desired results directory.
 
 ## Recreating experiments
 Files for reproducing experimental results can be found in the `scripts` folder.
-The notebook `methods_semisynthetic_20news.ipynb` reproduces results for the semi-synthetic 20 news dataset.
-The notebook `methods_headlines_dataset.ipynb`, reproduces results for the news headlines dataset. This notebook will likely take a while (hours) to run.
-The python file `produce_twitter_figures.py` reproduces results on COVID19 related tweets. In accordance with Twitter's policies, we do not provide data for this experiment. Tweet IDs were accessed from `https://github.com/echen102/COVID-19-TweetIDs`.
+
+* The notebook `methods_semisynthetic_20news.ipynb` reproduces results for the semi-synthetic 20 news dataset.
+* The notebook `methods_headlines_dataset.ipynb`, reproduces results for the news headlines dataset. This notebook will likely take a while (hours) to run.
+* The python file `produce_twitter_figures.py` reproduces results on COVID19 related tweets. In accordance with Twitter's policies, we do not provide data for this experiment. Tweet IDs were accessed from `https://github.com/echen102/COVID-19-TweetIDs`.
+* The python file `OCPDL_benchmark.py` reproduces the reconstruction error comparison plots for NCPD and Online NCPD.
 
 ## Tests
 
